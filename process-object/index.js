@@ -8,6 +8,7 @@ const currentMemoryUsage = process.memoryUsage().heapUsed;
 
 console.log(`Hai, ${yourName}!`);
 console.log(`Initial memory usage: ${initialMemoryUsage}`);
+console.log(`Mode Environment: ${environment}`);
 console.log(`Current memory usage: ${currentMemoryUsage}`);
 console.log(
   `Penggunaan memori dari ${initialMemoryUsage} menjadi ${currentMemoryUsage}`
